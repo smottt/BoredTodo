@@ -1,0 +1,116 @@
+html, body { font-family: Ubuntu }
+
+input[type="text"], textarea { display: block }
+
+a, a:active, a:visited {
+	color: #000;
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 14px;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#form-container { margin: 10px }
+
+#form-container #todo-short {
+	width: 650px;
+	height: 40px;
+	padding: 0 3px 6px 12px;
+	border: 1px solid silver;
+	font-family: inherit;
+	font-size: 25px;
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	-khtml-border-radius: 14px;
+	border-radius: 14px;
+}
+
+#form-container #todo-more {
+	display: none;
+	margin: 5px 0 0 10px;
+}
+
+#form-container #todo-more #todo-long {
+	width: 645px;
+	height: 100px;
+	padding: 5px;
+	border: 1px solid silver;
+	font-size: 14px;
+}
+
+#form-container .todo-short-submit { display: none }
+
+ul.todo-list {
+	display: block;
+	margin-left: 15px;
+}
+
+ul.todo-list.new {
+	display: none;
+	margin-bottom: 8px;	
+}
+
+ul.todo-list li {
+	display: block;
+	width: 100%;
+	height: 31px;
+	font-size: 16px;
+}
+
+ul.todo-list li:hover {
+	cursor: pointer;
+	background-color: #B4D7BF;
+}
+
+ul.todo-list li.todo-long {
+	width: 100%;
+	height: 31px;
+	overflow: hidden;
+	display: none;
+	cursor: default;
+}
+
+ul.todo-list li .priority { 
+	float: left;
+	width: 23px;
+	height: 100%;
+}
+
+ul.todo-list li .priority.high { background-color: #ff3333 }
+ul.todo-list li .priority.med  { background-color: #ffaa33 }
+ul.todo-list li .priority.low  { background-color: #ffe600 }
+
+ul.todo-list li .priority.long { margin-right: 8px }
+
+ul.todo-list li .priority.grad-to-med {
+	/* fallback for inadvanced browsers */
+	background: #f33;
+	
+	background: -moz-linear-gradient(top, #ff3333, #ffaa33);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff3333), to(#ffaa33));
+}
+
+ul.todo-list li .priority.grad-to-low {
+	/* fallback for inadvanced browsers */
+	background: #fa3;
+	
+	background: -moz-linear-gradient(top, #ffaa33, #ffe600);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffaa33), to(#ffe600));
+}
+
+ul.todo-list li .priority:hover { cursor: pointer }
+
+ul.todo-list li .short {
+	float: left;
+	margin-left: 8px;
+	padding: 7px 0;
+}
+
+ul.todo-list li.none { cursor: default }
+
+img.loader { margin-top: 11px }
