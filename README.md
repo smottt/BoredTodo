@@ -38,9 +38,9 @@ BoredTODO is all about keyboard shortcuts.
 First off you will want to type in a short description of the task at the top. If you wish to add this task without any longer descriptions, press _ENTER_ and the task is inserted.
 
 BoredTODO offers you three priorities - low, medium and high. If you wish to add a priority to your TODO, type one of the keywords "low", "med" or "high" followed by a whitespace in the short description. Examples:
-    **low** This is a task with low priority.
-    **med** This is a task with medium priority.
-    **high** This is a task with high priority.
+    low This is a task with low priority.
+    med This is a task with medium priority.
+    high This is a task with high priority.
 
 Default priority is set to medium.
 
