@@ -60,7 +60,7 @@ Untested:
   * Safari
   * IE9
 
-Opera 11 does not seem to have support for CSS gradients, so it is not fully supported. BoredTODO my function on other browsers as well, but was not tested.
+Opera 11 does not seem to have support for CSS gradients, so it is not fully supported. BoredTODO might function on other browsers as well, but was not tested.
 
 Code license
 ------------
