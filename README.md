@@ -3,12 +3,6 @@ BoredTODO
 
 BoredTODO is a simple TODO list. It was created for keeping a list of things to do when you have completed all other essential stuff and are somewhat bored.
 
-with the following additions:
-
-  * CommonJS Programs/A (strawman) (__Not Yet Documented__)
-  * PINF Workspace/A (strawman) (__Not Yet Documented__)
-
-
 Requirements
 ------------
 
@@ -57,10 +51,12 @@ Browser Support
 ---------------
 
 Since BoredTODO uses some CSS3 features it supports only the latest and non-IE browsers:
+
   * Firefox
   * Chrome
 
 Untested:
+
   * Safari
   * IE9
 
