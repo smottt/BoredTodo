@@ -67,7 +67,7 @@ Code license
 
 [MIT License](http://www.opensource.org/licenses/mit-license.php)
 
-Copyright (c) 2011 [Christoph Dorn](http://www.christophdorn.com/)
+Copyright (c) 2011 [Metod](http://www.metod.si/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
