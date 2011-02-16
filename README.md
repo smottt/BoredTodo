@@ -51,8 +51,8 @@ Browser Support
 ---------------
 
 Since BoredTODO uses some CSS3 features it supports only the latest and non-IE browsers:
-    * Firefox
-    * Chrome
+  * Firefox
+  * Chrome
 
 Untested:
   * Safari
